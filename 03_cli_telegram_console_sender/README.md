@@ -12,11 +12,8 @@ npm i
 ```
 
 ### 3. Set Environment Variables
-```bash
-npm run env
-```
 
-### 3. Run App
+### 4. Run App
 ```bash
-npm start
+node app.js
 ```
