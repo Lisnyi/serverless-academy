@@ -15,5 +15,5 @@ npm i
 
 ### 4. Run App
 ```bash
-npm start
+node app.js
 ```
