@@ -1,5 +1,3 @@
-// export $(cat .env | xargs) && node app.js
-
 import { Command } from "commander";
 import { sendMessage, sendPhoto } from "./telegram-services.js";
 
