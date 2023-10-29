@@ -12,7 +12,7 @@ const token = process.env.TELEGRAM_BOT_TOKEN;
 
 const bot = new TelegramBot(token, { polling: true });
 
-bot.onText(/\/start/, function onPhotoText(msg) {
+bot.onText(/\/start/, function onStart(msg) {
   bot.sendMessage(msg.chat.id, "Show forecast?", forecastOptions);
 });
 
