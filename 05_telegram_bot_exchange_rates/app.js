@@ -16,7 +16,7 @@ import {
 import { getForecast, getDollarRate, getEuroRate } from "./api/index.js";
 import { forecastMessage, exchangeRateMessage } from "./utils.js";
 
-const token = "6806509699:AAG1I7OuEct3MzFgozK9VTS1CE3S5z0zdAQ";
+const token = process.env.TELEGRAM_BOT_TOKEN;
 
 const bot = new TelegramBot(token, { polling: true });
 
